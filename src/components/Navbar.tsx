@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' border-b sticky top-0 shadow-md'>
+    <div className=' border-b sticky top-0 shadow-md bg-white'>
 
     <div className=' container mx-auto px-3  flex justify-between my-4'>
 

@@ -1,3 +1,5 @@
+import Booking from "@/components/booking/Booking";
+import MapSection from "@/components/map/MapSection";
 
 
 export default function Home() {
@@ -5,10 +7,10 @@ export default function Home() {
 <div >
   <div className="grid grid-cols-1 md:grid-cols-3">
 <div>
-  Booking
+  <Booking/>
 </div>
 <div className=" col-span-2 md:order-last order-first">
-  Map
+  <MapSection/>
 </div>
   </div>
 </div>
