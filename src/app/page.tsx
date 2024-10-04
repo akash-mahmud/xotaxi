@@ -6,7 +6,6 @@ export default function Home() {
     <>
     
     
- <UserButton afterSwitchSessionUrl="/"/>
  <button>
 Hello
  </button>
