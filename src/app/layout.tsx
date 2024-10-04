@@ -27,8 +27,14 @@ export default function RootLayout({
       <body
         className={`${outFit.className} antialiased`}
       >
+        <main className="min-h-screen flex flex-col  ">
         <Navbar/>
+        <section className=" bg-slate-50 flex-grow ">
+
         {children}
+        </section>
+        </main>
+   
       </body>
     </html>
     </ClerkProvider>
